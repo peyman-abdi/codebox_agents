@@ -58,7 +58,7 @@
         <resources />
     </agent>
     <agent filename="PlayServicesAgent.cs">
-        <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/playservices_app_id" android:resource="VALUE GOES HERE" />
+        <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/playservices_app_id" />
         <requires-agents>
             <agent>NemoActivity.cs</agent>
         </requires-agents>
